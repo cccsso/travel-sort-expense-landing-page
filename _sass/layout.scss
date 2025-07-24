@@ -97,6 +97,14 @@ header {
 	margin-right: -15px;
 }
 
+.clickableHeaderName {
+	color: $accent-color;
+	white-space: nowrap;
+	display: flex;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
 .logo {
 	display: flex;
 	justify-content: flex-start;
