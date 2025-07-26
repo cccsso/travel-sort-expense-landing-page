@@ -20,12 +20,10 @@
 	background-color: rgba($header-color, $header-transparency);
 }
 
-@media only screen and (max-width: 768px) {
-
-	.headerBackground {
-		height: 80px;
-	}
-
+.headerName {
+	color: $header-title-color;
+	font-weight: bold;
+	margin-left: 15px;
 }
 
 .subPageHeaderBackground {
@@ -95,6 +93,11 @@ header {
 	grid-area: h;
 	display: flex;
 	margin-right: -15px;
+
+	@media only screen and (max-width: 768px) {
+		flex-direction: column;
+		padding-top: 15px;
+	}
 }
 
 .clickableHeaderName {
@@ -175,10 +178,6 @@ header {
 @media only screen and (max-width: 768px) {
 
 	.scroll {
-		height: 80px;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		margin-top: -60px;
 		justify-content: flex-start;
 	}	
 	
@@ -209,8 +208,11 @@ nav > ul li {
 }
 
 nav > ul li:first-child {
-	padding-left: 0px;
 	padding-left: 15px;
+
+	@media only screen and (max-width: 768px) {
+		padding-left: 0px;
+	}
 }
 
 nav > ul li:last-child {
@@ -238,12 +240,15 @@ nav > ul li a:active {
 
 .subPageHeaderBackground nav > ul li a:link,
 .subPageHeaderBackground nav > ul li a:visited {
-	color: rgba(#000, 0.6);
+	color: $accent-color;
+	opacity: 0.8;
 }
 
 .subPageHeaderBackground nav > ul li a:hover,
 .subPageHeaderBackground nav > ul li a:active {
-	color: rgba(#000, 1);
+	color: $accent-color;
+	opacity: 1;
+	font-weight: bold;
 }
 
 
