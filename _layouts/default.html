@@ -16,11 +16,6 @@
                             </clipPath>
                         </svg>
 
-                        <div class="videoContainer hidden">
-                            <video class="screenvideo" autoplay="autoplay" controls="controls">
-                            </video>
-                        </div>  
-                        
                         <img class="iphoneScreen hidden" src="" alt="">
 
                         {% include screencontent.html %}
@@ -57,7 +52,15 @@
                             <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
                         </div>
                     </div>
+
                     {% include features.html %}
+
+                    <div class="videoContainer">
+                        <video class="screenvideo" style="width: 100%; height: auto; border-radius: 24px; box-shadow: 0 4px 24px rgba(0,0,0,0.12);" autoplay="autoplay" controls="controls" muted playsinline loop>
+                            <source src="assets/videos/AppShowcase.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
                     {% include footer.html %}
                     {% include appstoreimages.html %}
                 </div>

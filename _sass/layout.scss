@@ -20,12 +20,10 @@
 	background-color: rgba($header-color, $header-transparency);
 }
 
-@media only screen and (max-width: 768px) {
-
-	.headerBackground {
-		height: 80px;
-	}
-
+.headerName {
+	color: $header-title-color;
+	font-weight: bold;
+	margin-left: 15px;
 }
 
 .subPageHeaderBackground {
@@ -44,6 +42,7 @@
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
+		"v v v v v v v v v v v v"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -70,6 +69,7 @@
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
+			"v v v v v v v v v v v v"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
@@ -95,6 +95,11 @@ header {
 	grid-area: h;
 	display: flex;
 	margin-right: -15px;
+
+	@media only screen and (max-width: 768px) {
+		flex-direction: column;
+		padding-top: 15px;
+	}
 }
 
 .clickableHeaderName {
@@ -175,10 +180,6 @@ header {
 @media only screen and (max-width: 768px) {
 
 	.scroll {
-		height: 80px;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		margin-top: -60px;
 		justify-content: flex-start;
 	}	
 	
@@ -209,8 +210,11 @@ nav > ul li {
 }
 
 nav > ul li:first-child {
-	padding-left: 0px;
 	padding-left: 15px;
+
+	@media only screen and (max-width: 768px) {
+		padding-left: 0px;
+	}
 }
 
 nav > ul li:last-child {
@@ -238,12 +242,15 @@ nav > ul li a:active {
 
 .subPageHeaderBackground nav > ul li a:link,
 .subPageHeaderBackground nav > ul li a:visited {
-	color: rgba(#000, 0.6);
+	color: $accent-color;
+	opacity: 0.8;
 }
 
 .subPageHeaderBackground nav > ul li a:hover,
 .subPageHeaderBackground nav > ul li a:active {
-	color: rgba(#000, 1);
+	color: $accent-color;
+	opacity: 1;
+	font-weight: bold;
 }
 
 
@@ -403,17 +410,10 @@ nav > ul li a:active {
 }
 
 .videoContainer {
-	width: 349px;
-	height: 755px;
-	-webkit-clip-path: url(#screenMask);
-	clip-path: url(#screenMask);
+	grid-area: v;
+	width: 1200px;
 	margin-left: 26px;
 	margin-top: 23px;
-}
-
-.videoContainer > video {
-	width: 349px;
-	height: 755px;
 }
 
 @media only screen and (max-width: 1070px) {
@@ -429,17 +429,11 @@ nav > ul li a:active {
 	}
 
 	.videoContainer {
-		width: 322px;
-		height: 698px;
-		margin-left: 24px;
-		margin-top: 22px;
-	}
-	
-	.videoContainer > video {
-		width: 322px;
-		height: 698px;
-	}
-	
+	grid-area: v;
+	width: 1000px;
+	margin-left: 26px;
+	margin-top: 23px;
+}
 } 
 
 @media only screen and (max-width: 992px) {
@@ -463,8 +457,8 @@ nav > ul li a:active {
 	}
 
 	.videoContainer {
-		width: 226px;
-		height: 488px;
+		grid-area: v;
+		width: 600px;
 		margin-left: 0px;
 		margin-top: 17px;
 	}
