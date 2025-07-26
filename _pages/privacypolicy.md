@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-include_in_header: true
+include_in_header: false
 ---
 
 **Last updated**  
@@ -19,7 +19,7 @@ We collect some personal information only when necessary to provide core feature
 
 We do not collect or have access to your bank account information, credit card numbers, or any linked financial accounts.
 
-We do not sell, rent, or directly share your personal information with advertisers, marketing platforms, or data brokers. We do not use your data for targeted advertising or promotional purposes. 
+We do not sell, rent, or directly share your personal information with advertisers, marketing platforms, or data brokers. We do not use your data for targeted advertising or promotional purposes.
 
 The data you provide stays within the app and the secure third-party services used solely to power the app’s core features (like logging expenses). If we ever need to share data in the future (for example, to improve app functionality), it will only be done with your clear knowledge and consent.
 
@@ -43,9 +43,9 @@ We collect and store data only with your explicit consent and through your direc
 
 ## 2.0 Third Parties we use
 
-| Third Party | What is it used for?                                                      |
-| :---------- | :------------------------------------------------------------------------ |
-| Google Firebase    | User authentication, data storage, backend logic and image storage
+| Third Party     | What is it used for?                                               |
+| :-------------- | :----------------------------------------------------------------- |
+| Google Firebase | User authentication, data storage, backend logic and image storage |
 
 ### 2.1 Information we provide to third parties
 
