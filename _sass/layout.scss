@@ -411,11 +411,11 @@ nav > ul li a:active {
 
 .videoContainer {
 	grid-area: v;
-	width: 1200px;
+	width: 100%;
 	margin-left: 26px;
 	margin-top: 23px;
 
-	@media screen and (max-width: 400px) {
+	@media screen and (max-width: 650px) {
 		display: none;
 	}
 }
@@ -434,7 +434,6 @@ nav > ul li a:active {
 
 	.videoContainer {
 	grid-area: v;
-	width: 1000px;
 	margin-left: 26px;
 	margin-top: 23px;
 }
@@ -462,7 +461,6 @@ nav > ul li a:active {
 
 	.videoContainer {
 		grid-area: v;
-		width: 600px;
 		margin-left: 0px;
 		margin-top: 17px;
 	}
@@ -619,11 +617,6 @@ footer {
 	justify-content: center;
 
 	background-color: $footer-background-color;
-	margin: 10px -700px;
-
-	@media screen and (max-width: 1028px) {
-		margin: 10px 0;
-	}
 }
 
 .footerText {
