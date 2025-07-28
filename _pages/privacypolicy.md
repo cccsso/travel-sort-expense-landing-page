@@ -13,6 +13,19 @@ This Privacy Policy explains how your data is collected, used, and protected whe
 
 <br>
 
+## Table of Contents
+
+- [Privacy Policy](#privacy-policy)
+  - [Table of Contents](#table-of-contents)
+  - [1.0 Information We Collect](#10-information-we-collect)
+    - [1.1 Information you provide to us](#11-information-you-provide-to-us)
+    - [1.2 What Personal Information we collect about you and how we collect it](#12-what-personal-information-we-collect-about-you-and-how-we-collect-it)
+  - [2.0 Third Parties we use](#20-third-parties-we-use)
+    - [2.1 Information we provide to third parties](#21-information-we-provide-to-third-parties)
+  - [3.0 What rights do you, as the data subject, have](#30-what-rights-do-you-as-the-data-subject-have)
+    - [3.1 Account Deletion](#31-account-deletion)
+  - [4.0 How we store and secure the Personal Information we collect](#40-how-we-store-and-secure-the-personal-information-we-collect)
+
 ## 1.0 Information We Collect
 
 We collect some personal information only when necessary to provide core features, improve the user experience, and ensure the app functions properly.
@@ -64,8 +77,15 @@ You have the right to:
 Your data is only stored for as long as your account is active or as required for functionality.
 You can contact us in writing at any time to request or permanently delete data.
 
-Identification checks may be asked if you request us to retrieve data associated with your account.
+Identification checks may be asked if you request us to retrieve data associated with your account or request account deletion.
 We will aim to retreive or delete data within 90 days of your request.
+
+### 3.1 Account Deletion
+
+You may request the deletion of your account at any time. This will permanently remove your personal information, including your email address, name, and any trip or expense data that is **not** shared with another user.
+
+Please note:
+If you have shared trips with a travel partner, the data associated with those trips (such as expenses and trip details) cannot be deleted, as it is part of another user’s account. We preserve this shared data to maintain the integrity of your partner’s records.
 
 <br>
 
