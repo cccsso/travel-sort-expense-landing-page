@@ -2,7 +2,7 @@
 page_title                                : Travel Sort Expense                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6737707322                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : au                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :  #TODO: once release app :<                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -38,7 +38,7 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 - title: Expense Sorting
-  description: Ability to sort travel expenses by who paid to save you accounting time on every trip.
+  description: Ability to sort travel expenses by who to save you accounting time on every trip.
   fontawesome_icon_name: filter
 
 - title: Owed Amount Calculations

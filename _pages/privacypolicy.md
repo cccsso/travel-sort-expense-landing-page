@@ -4,6 +4,7 @@ title: Privacy Policy
 include_in_header: false
 ---
 
+<br>
 **Last updated**  
 July 24, 2025
 
@@ -12,19 +13,6 @@ July 24, 2025
 This Privacy Policy explains how your data is collected, used, and protected when you use our app. We take privacy seriously and are committed to being transparent about our practices.
 
 <br>
-
-## Table of Contents
-
-- [Privacy Policy](#privacy-policy)
-  - [Table of Contents](#table-of-contents)
-  - [1.0 Information We Collect](#10-information-we-collect)
-    - [1.1 Information you provide to us](#11-information-you-provide-to-us)
-    - [1.2 What Personal Information we collect about you and how we collect it](#12-what-personal-information-we-collect-about-you-and-how-we-collect-it)
-  - [2.0 Third Parties we use](#20-third-parties-we-use)
-    - [2.1 Information we provide to third parties](#21-information-we-provide-to-third-parties)
-  - [3.0 What rights do you, as the data subject, have](#30-what-rights-do-you-as-the-data-subject-have)
-    - [3.1 Account Deletion](#31-account-deletion)
-  - [4.0 How we store and secure the Personal Information we collect](#40-how-we-store-and-secure-the-personal-information-we-collect)
 
 ## 1.0 Information We Collect
 
