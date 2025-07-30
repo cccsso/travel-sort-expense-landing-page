@@ -18,7 +18,7 @@ include_in_header: true
 
 Released: 30 July 2025
 
-The first public release of the app! 🎉
+The first public release of the app! 🎉 (Australia only for now)
 
 This version includes the core experience for managing shared travel expenses.
 
@@ -29,7 +29,7 @@ This version includes the core experience for managing shared travel expenses.
 - Create and manage trips with a travel partner
 - Automatically import Apple Pay transactions into the app using Apple Shortcuts
 - View daily totals per person
-- Automatically fetch daily exchange rates
+- Automatically fetch daily exchange rates in base currency only in AUD (for now)
 
 ## Other Changes
 
