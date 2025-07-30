@@ -16,7 +16,7 @@ include_in_header: true
 
 # **Version 1.0.0**
 
-Released: 2025
+Released: 30 July 2025
 
 The first public release of the app! 🎉
 
@@ -25,8 +25,9 @@ This version includes the core experience for managing shared travel expenses.
 ## Features
 
 - Sign up and login with email
-- Create and manage trips with a travel partner
 - Log and categorise expenses
+- Create and manage trips with a travel partner
+- Automatically import Apple Pay transactions into the app using Apple Shortcuts
 - View daily totals per person
 - Automatically fetch daily exchange rates
 

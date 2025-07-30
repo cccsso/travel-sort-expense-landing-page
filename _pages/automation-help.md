@@ -7,7 +7,7 @@ include_in_header: true
 # Apple Pay Integration Help
 
 I'll make a tutorial video later!  
-For now, you can open the **Apple Shortcuts** app and replicate the screenshot below.
+For now, you can open the [Apple Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334) app and replicate the screenshot below.
 
 > **Note:**  
 > It's very important that you have your phone **unlocked** while the shortcut runs and do **not** let your phone go to sleep.
