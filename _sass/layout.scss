@@ -299,9 +299,9 @@ nav > ul li a:active {
 	color: $app-title-color;
 }
 
-.appPrice {
+.appPrice, .appCountry {
 	color: $app-price-color;
-	font-weight: normal;
+	font-weight: bold;
 	margin-top: 13px;
 }
 
@@ -319,7 +319,7 @@ nav > ul li a:active {
 		text-align: center;
 	}
 	
-	.appPrice {
+	.appPrice, .appCountry {
 		margin-top: 13px;
 		text-align: center;
 	}
