@@ -11,8 +11,12 @@ For now, you can open the [Apple Shortcuts](https://apps.apple.com/us/app/shortc
 
 > **Note:**  
 > It's very important that you have your phone **unlocked** while the shortcut runs and do **not** let your phone go to sleep.
+> Also ensure you have a stable wifi connection
+
+<iframe width="800" height="515" src="https://www.youtube.com/embed/5fuVE12RUuU" title="Automation Demo" frameborder="0" allowfullscreen></iframe>
 
 ![Apple Shortcut Example](/travel-sort-expense-landing-page/assets/automationHelp/shortcut-help1.png)
+![Apple Shortcut Example](/travel-sort-expense-landing-page/assets/automationHelp/shortcut-help2.png)
 
 ---
 
