@@ -6,7 +6,7 @@ include_in_header: false
 
 <br>
 **Last updated**  
-July 30, 2025
+Aug 18, 2025
 
 # Privacy Policy
 
@@ -79,11 +79,16 @@ Your data is only stored for as long as your account is active or as required fo
 You can contact us in writing at any time to request or permanently delete data.
 
 Identification checks may be asked if you request us to retrieve data associated with your account or request account deletion.
+
 We will aim to retreive or delete data within 90 days of your request.
 
 ### 2.1 Account Deletion
 
 You may request the deletion of your account at any time. This will permanently remove your personal information, including your email address, name, and any trip or expense data that is **not** shared with another user.
+
+We may take up to 90 days to action your delete account request. During this time, your account will be disabled and you may contact us at [travelsortexpense@gmail.com](mailto:travelsortexpense@gmail.com) to restore your account if you wish to cancel your delete account request.
+
+Once your account is deleted, it cannot be restored. We will email you to notify you that your account has been permanently deleted.
 
 Please note:
 If you have shared trips with a travel partner, the data associated with those trips (such as expenses and trip details) cannot be deleted, as it is part of another user’s account.
